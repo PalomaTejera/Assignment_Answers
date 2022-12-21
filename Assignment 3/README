@@ -1,0 +1,6 @@
+Assignment 3
+First part of the Assignment 3: tasks 1-4b.
+The scripts have been developed with resources from Mark Wilkinson (professor).
+To run the program: $ruby main.rb
+contains_repeat_sequence.gff is a GFF3-formatted file with the exon positions for the repeat "CTTCTT"
+genes_no_repeat.txt contains the genes that do not have exons with the repeat "CTTCTT".
