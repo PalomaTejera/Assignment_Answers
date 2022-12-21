@@ -1,7 +1,7 @@
-#This program read the file '/ArabidopsisSubNetwork_GeneList.txt' and put the gene id into objets.
+#This program reads the file '/ArabidopsisSubNetwork_GeneList.txt' and put the gene id into objets.
 #It creates a Bio::EMBL object and then a Bio::Feature object.
 #One file is generated as .gff3 with the gene id and the positions with the repeated sequence in the exons.
-#A second file is generated with the genes that do not contain the repeated sequence
+#A second file is generated with the genes that do not contain the repeated sequence.
 
 require './fetch.rb' #Error handling
 require 'bio'
