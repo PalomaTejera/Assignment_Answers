@@ -1,0 +1,8 @@
+To run the program: $ruby main.rb
+Output file: orthologue_pairs.txt
+It requires to have also: 'pep.fa' and 'TAIR10_cds_20101214_updated.fa'
+
+Next steps to prove that they really are orthologues:
+We could perform functional analysis of orthologs. Orthologs play the same biological role in different species. After identifying pairs of genes with the same biological functions, we will cluster them to make functionally consistent ortholog groups [1]. The next steps (after BLAST analysis) include: phylogenetic tree and Gene Ontology annotations.
+
+[1] Fang. G., N. Bhardwai, R. Robilotto & M. B. Gerstein. 2010. Getting started in Gene Orthology and Functional Analysis. PLoS Comput Biol. 6(3): e1000703.
